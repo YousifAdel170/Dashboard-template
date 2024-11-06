@@ -4,7 +4,7 @@ This project is a fully responsive dashboard created using HTML and CSS. The das
 
 ## Demo:
 
-### https://yousifadel170.github.io/Leon-Template/
+### https://yousifadel170.github.io/Dashboard-template/
 
 ## Pages Overview
 
