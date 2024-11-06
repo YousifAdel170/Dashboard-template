@@ -1,0 +1,705 @@
+<!-- 
+    Author:     Yousif Adel Ismail
+    Descrition: Dashboard Project
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Test</title>
+    <!-- Adding The Framework -->
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- Add Icon To the head -->
+    <link rel="Icon" href="./imgs/avatar.png" />
+    <!-- Add FontAwesome Library -->
+    <!-- <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-3b124ff0e0d7a67cd8c995d0aeb1d15a.css?vsn=d"> -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+
+    <!-- Add The Main Styling File -->
+    <link rel="stylesheet" href="./css/master.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Start Page -->
+    <div class="page d-flex">
+      <!-- Start sidebar Section-->
+      <div class="sidebar bg-white p-relative p-20">
+        <h3 class="logo mt-0 p-relative txt-c">Elzero</h3>
+        <ul class="links">
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End sidebar Section-->
+
+      <!-- Start Full Content-->
+      <div class="full-content w-full">
+        <!-- Start Head Section -->
+        <div class="head between-flex bg-white p-15">
+          <!-- Start Search Input -->
+          <div class="search-box p-relative">
+            <input
+              class="p-10 rad-10"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <!-- End Search Input -->
+
+          <!-- Start Icons section -->
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="./imgs/avatar.png" alt="avatar Image" />
+          </div>
+          <!-- End Icons Section -->
+        </div>
+        <!-- End Head  Section -->
+
+        <!-- Start Main Heading Of the Page -->
+        <h1 class="p-relative">Projects</h1>
+        <!-- End Main Heading Of the Page -->
+
+        <!-- Start projects Page -->
+        <div class="projects-page m-20 d-grid gap-20">
+          <!-- Start First Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/10/2021</span>
+            <h4 class="m-0 fw-normal">Elzero Dashboard</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Elzero Dashboard Project Design And Programming And Hosting
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-04.png"
+                  alt="Team member 4"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-05.png"
+                  alt="Team member 5"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Programming</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Hosting</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Marketing</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 50%" class="bg-red"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                2500
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End First Box -->
+
+          <!-- Start Second Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Academy Portal</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Academy Portal Project Design And Programming
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Programming</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 80%" class="bg-green"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                1800
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Second Box -->
+
+          <!-- Start Third Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Chatting Application</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Chatting Application Project Design
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 100%" class="bg-blue"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                950
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Third Box -->
+
+          <!-- Start Fourth Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022</span>
+            <h4 class="m-0 fw-normal">Ahmed Dashboard</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Ahmed Dashboard Project Design And Programming And Hosting
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-04.png"
+                  alt="Team member 4"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Programming</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Hosting</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Marketing</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 60%" class="bg-green"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                1700
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Fourth Box -->
+
+          <!-- Start Fifth Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Ahmed Portal</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Ahmed Portal Project Design And Programming
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Programming</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 70%" class="bg-green"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                850
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Fifth Box -->
+
+          <!-- Start Sixth Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Mohamed Application</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Mohamed Application Project Design
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 40%" class="bg-red"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                950
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Sixth Box -->
+          <!-- Start Seventh Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Mohamed Dashboard</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Mohamed Dashboard Project Design And Programming And Hosting
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-04.png"
+                  alt="Team member 4"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Programming</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Hosting</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Marketing</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 65%" class="bg-green"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                1950
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Seventh Box -->
+          <!-- Start Eighth Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Mohamed Portal</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Mohamed Portal Project Design And Programming
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Programming</span
+              >
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 60%" class="bg-green"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                1650
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Eighth Box -->
+          <!-- Start Ninth Box -->
+          <div class="project-box bg-white m-0 p-20 rad-10 p-relative">
+            <span class="fs-13 c-grey">15/6/2022 </span>
+            <h4 class="m-0 fw-normal">Ahmed Application</h4>
+            <p class="mt-10 mb-10 c-grey fs-14">
+              Ahmed Application Project Design
+            </p>
+            <!-- Start Team Section -->
+            <div class="team">
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-01.png"
+                  alt="Team member 1"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-02.png"
+                  alt="Team member 2"
+              /></a>
+              <a href="#"
+                ><img
+                  class="rad-half"
+                  src="./imgs/team-03.png"
+                  alt="Team member 3"
+              /></a>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- Start Do Section -->
+            <div class="do mt-20 pt-10 d-flex mb-10">
+              <span class="btn-shape bg-eee fs-13 c-black mb-10 w-fit"
+                >Design</span
+              >
+            </div>
+            <!-- End Do Section -->
+
+            <!-- Start Info Section -->
+            <div class="info mt-20 between-flex">
+              <div class="prog bg-eee rad-6">
+                <span style="width: 90%" class="bg-green"></span>
+              </div>
+              <div class="fs-14 c-grey">
+                <i class="fa-solid fa-dollar-sign c-grey fs-14"></i>
+                950
+              </div>
+            </div>
+            <!-- End Info Section -->
+          </div>
+          <!-- End Ninth Box -->
+        </div>
+        <!-- End projects Page -->
+      </div>
+      <!-- End Full Content-->
+    </div>
+    <!-- End Page -->
+  </body>
+</html>
