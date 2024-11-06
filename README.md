@@ -2,6 +2,10 @@
 
 This project is a fully responsive dashboard created using HTML and CSS. The dashboard consists of 8 pages, each featuring a sliding bar that contains options that allow the user to navigate through different sections seamlessly. The layout is designed to be responsive across various devices, ensuring a smooth user experience on desktops, tablets, and smartphones.
 
+## Demo:
+
+### https://yousifadel170.github.io/Leon-Template/
+
 ## Pages Overview
 
 ### Dashboard:
